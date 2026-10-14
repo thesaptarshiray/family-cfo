@@ -1,10 +1,12 @@
+
 # Family CFO
 
 A local-first personal finance platform for Indian families: investments, insurance, loans and
 monthly cash flow for every family member in one place, with financial health scores, goal
 planning and an AI assistant that never sees your sensitive identifiers.
 
-![Family CFO demo dashboard](images/family-cfo-demo.png)
+![Uploading family-cfo-demo.png…]()
+
 
 *Screenshots use made-up demo data.*
 
