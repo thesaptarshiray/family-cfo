@@ -7,6 +7,8 @@ planning and an AI assistant that never sees your sensitive identifiers.
 
 ![Family CFO demo dashboard](./family-cfo-demo.png)
 
+![Family CFO demo dashboard](./family_cfo_demo2.png)
+
 
 *Screenshots use made-up demo data.*
 
