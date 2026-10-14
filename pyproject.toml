@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "family-finance-tracker"
+version = "0.1.0"
+description = "A family finance tracking application"
+requires-python = ">=3.10"
+# pypdf reads CAS statement PDFs (MF tab "Import CAS"); anthropic powers the
+# "Ask Family CFO" chat assistant.
+dependencies = [
+    "pypdf>=5",
+    "anthropic>=1.11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

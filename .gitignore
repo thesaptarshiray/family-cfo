@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.pyc
+family_finance.db
+family_finance_auth.json
+family_finance_sync_state.json
+family_finance.db.backup-*
+family_finance_stock_sync_state.json
+family_finance_settings.json
+family_finance_reminders.json
+# statements and spreadsheets with personal data
+*.pdf
+*.xlsx
+
+thesaptarshiray.github.io/

@@ -1,0 +1,55 @@
+FAMILY CFO - a personal finance app for your family
+====================================================
+
+It runs on your own computer. Your figures stay in this folder and are never
+uploaded anywhere. No account or subscription is needed.
+
+
+SETTING IT UP (once, about 5 minutes)
+-------------------------------------
+1. Unzip this folder somewhere permanent, e.g. Documents\Family CFO.
+   (Don't run it from inside the zip, and don't move the folder afterwards.)
+
+2. Install Python if you don't have it: https://www.python.org/downloads/
+   On the first install screen, TICK "Add python.exe to PATH", then Install.
+
+3. Double-click "Setup Family CFO" in this folder.
+   If Windows shows "Windows protected your PC", click "More info" -> "Run anyway".
+   When it finishes, the app opens in your browser and a "Family CFO" shortcut
+   appears on your desktop.
+
+4. In the browser, choose a password. It protects the app on this computer.
+
+
+EVERY DAY USE
+-------------
+Double-click "Family CFO" on the desktop. The app opens in your browser at
+http://127.0.0.1:8000/  (a small minimised window keeps it running - leave it open).
+
+Start on the Overview tab: add your family members, then fill in the tabs
+(FDs, mutual funds, stocks, insurance, loans, monthly cash flow...).
+
+Mutual funds: Mutual Funds tab -> "Import CAS statement" reads your CAS PDF
+(from NSDL / CAMS / KFintech, saved without a password). Import a new one
+each month and the funds update themselves.
+
+
+OPTIONAL EXTRAS (Reminders & Settings tab)
+------------------------------------------
+- Ask Family CFO (the chat button, bottom right): needs a free Groq key.
+  Sign up at console.groq.com -> Settings -> Data Controls -> turn on
+  Zero Data Retention -> API Keys -> Create API Key -> paste it in the app.
+  Tick "Privacy mode" to hide names of people and banks from the AI.
+  PAN, account, folio and policy numbers are never sent.
+
+- Email reminders 15 and 3 days before FD maturities and premium dates:
+  needs a Gmail "app password" - the steps are on that tab.
+
+
+GOOD TO KNOW
+------------
+- Your data is the file family_finance.db in this folder. Copy it somewhere
+  safe now and then (a pen drive, or your own cloud drive) - that is your backup.
+- Don't share this folder with anyone once you have entered your data:
+  family_finance.db and family_finance_settings.json hold your figures and keys.
+- The app is a guide, not personal financial advice.
